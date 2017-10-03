@@ -23,7 +23,7 @@ class main
 	 answers::compareDate($date,$tar);
 	 //answers::convert($date);
 	 echo '<br>';
-	 echo 'Replacing "-" in $date with "/" : '. answers::rString($date);
+	 echo 'the value of $date is now: '. answers::rString($date);
 	 answers::searchString(answers::rString($date)); 
 	 answers::countWords($date);
 	 answers::strlength($date);
